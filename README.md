@@ -5,10 +5,6 @@
 #### Step 1.
 ```
 dependencies{
-    compile 'com.ms:recyclerview-decoration:1.0.0'
+    implementation 'com.github.wenchaosong:RecyclerViewDecoration:1.2.0'
 }
-```
-或者引用本地lib
-```groovy
-compile project(':recyclerviewdecoration')
 ```
