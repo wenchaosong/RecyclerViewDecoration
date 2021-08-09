@@ -16,16 +16,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
-}
-
-apply plugin: 'com.novoda.bintray-release'
-
-publish {
-    userOrg = 'songwenchao0714'
-    groupId = 'com.ms'
-    artifactId = 'recyclerview-decoration'
-    publishVersion = '1.0.0'
-    desc = 'A simple recyclerview-decoration lib'
-    website = 'https://github.com/wenchaosong/RecyclerViewDecoration'
+    implementation "androidx.recyclerview:recyclerview:$rootProject.ext.recyclerview"
 }

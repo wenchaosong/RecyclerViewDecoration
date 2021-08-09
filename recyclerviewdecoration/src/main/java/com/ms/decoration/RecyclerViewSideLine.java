@@ -1,6 +1,6 @@
 package com.ms.decoration;
 
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 public class RecyclerViewSideLine {
 
